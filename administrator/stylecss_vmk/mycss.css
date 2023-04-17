@@ -1,0 +1,140 @@
+*{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#top_div{
+    height: 150px;
+    width: 100%;
+    background-color: aquamarine;
+
+}
+#left_div{
+    height: 500px; 
+    width: 20%;
+    background-color:antiquewhite;
+    float: left;
+}
+#center_div{
+    height: 500px;
+    width: 60%;
+    background-color: bisque;
+    float: left;
+}
+#right_div{
+    height: 500px;
+    width: 19.8%;
+    background-color: burlywood;
+    float:left;
+
+}
+#bottom_div{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    clear:both;
+}
+p{
+    color: red;
+}
+.cls01{
+    color: blueviolet;
+}
+#id01 {
+    color:yellowgreen;
+}
+/*menu*/
+.cateOrder{
+    font-weight: bold;
+}
+.itemOrder{
+    font-style: italic;
+}
+ul{
+    list-style: square;
+    margin: 0;
+    padding: left 15px; 
+}
+a{
+    text-decoration: none;
+}
+#DivSlideimage {
+    width: 80%;
+    margin: auto;
+}
+
+#DivView {
+    width: 700px;
+    height: 500px;
+    border: solid;
+}
+
+#DivList {
+    width: 700px;
+    height: 100px;
+    border: solid;
+}
+
+#imgView {
+    width: 700px;
+    height: 600px;
+}
+
+.imgCls {
+    width: 90px;
+}
+
+.imgCls:hover {
+    width: 95px;
+}
+
+.iconimg {
+    height: 20px;
+}
+
+.btnupdate:hover {
+    cursor: pointer;
+}
+
+
+/* login */
+#loginBody {
+    border-left: 1px double lightsteelblue;
+    border-top: 1px double lightsteelblue;
+    border-right: 1px double lightsteelblue;
+    border-bottom: 1px double lightsteelblue;
+
+    width: 300px;
+    height: 150px;
+    margin: auto auto;
+}
+
+/* button logout */
+#signoutbutton {
+    position: fixed;
+    width: 50px;
+    z-index: 2;
+    top: 10px;
+    right: 10px;
+    opacity: 0.75;
+}
+
+#signoutbutton .iconbutton {
+    width: 50px;
+}
+#loginBody{
+    border-left: 1px double lightsteelblue;
+    border-top: 1px double lightsteelblue;
+    border-right: 1px double lightsteelblue;
+    border-bottom: 1px double lightsteelblue;
+    width: 300px;
+    height: 150px;
+    margin: auto auto;
+
+}
+.imgtable {
+    width: 200px;
+    height: 150px;
+}
+
